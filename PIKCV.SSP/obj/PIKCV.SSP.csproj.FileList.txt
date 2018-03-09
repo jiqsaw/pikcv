@@ -1,0 +1,5 @@
+bin\Debug\PIKCV.SSP.dll
+bin\Debug\PIKCV.SSP.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PIKCV.SSP.dll
+obj\Debug\PIKCV.SSP.pdb

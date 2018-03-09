@@ -1,0 +1,97 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF943D78-7279-43C7-A379-EE16ED7E3747}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIKCV.BUS</RootNamespace>
+    <AssemblyName>PIKCV.BUS</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articles.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="ComputerKnowledgeTypes.cs" />
+    <Compile Include="Credits.cs" />
+    <Compile Include="DriverLicence.cs" />
+    <Compile Include="Education.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="Filters.cs" />
+    <Compile Include="ForeignLanguages.cs" />
+    <Compile Include="Interview.cs" />
+    <Compile Include="InterviewStates.cs" />
+    <Compile Include="Job.cs" />
+    <Compile Include="JobApplicants.cs" />
+    <Compile Include="LabouringTypes.cs" />
+    <Compile Include="Levels.cs" />
+    <Compile Include="MaritalStates.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="MilitaryStates.cs" />
+    <Compile Include="Orders.cs" />
+    <Compile Include="Perfection.cs" />
+    <Compile Include="Places.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Projects.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sector.cs" />
+    <Compile Include="SystemUsers.cs" />
+    <Compile Include="TemporaryUsers.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserCVs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CARETTA.COM\CARETTA.COM.csproj">
+      <Project>{5FC305DA-99A5-42B0-9743-E23876EE19A2}</Project>
+      <Name>CARETTA.COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PIKCV.COM\PIKCV.COM.csproj">
+      <Project>{59724C87-3CE1-4080-9CBE-48D1FE570433}</Project>
+      <Name>PIKCV.COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PIKCV.DAL\PIKCV.DAL.csproj">
+      <Project>{3C66657A-B256-44F6-82C9-03174210472C}</Project>
+      <Name>PIKCV.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PIKCV.DAO\PIKCV.DAO.csproj">
+      <Project>{93E791F1-DD6F-4BAB-A1C8-F3BD24DA0B36}</Project>
+      <Name>PIKCV.DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

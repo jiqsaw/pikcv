@@ -1,0 +1,326 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C66657A-B256-44F6-82C9-03174210472C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIKCV.DAL</RootNamespace>
+    <AssemblyName>PIKCV.DAL</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntities\_Articles.cs" />
+    <Compile Include="BaseEntities\_Banners.cs" />
+    <Compile Include="BaseEntities\_Companies.cs" />
+    <Compile Include="BaseEntities\_CompanyAdvisor.cs" />
+    <Compile Include="BaseEntities\_CompanyOwnedUsers.cs" />
+    <Compile Include="BaseEntities\_CompanySectors.cs" />
+    <Compile Include="BaseEntities\_ComputerKnowledgeTypes.cs" />
+    <Compile Include="BaseEntities\_ComputerKnowledgeTypes_ML.cs" />
+    <Compile Include="BaseEntities\_CreditOrderLineItem.cs" />
+    <Compile Include="BaseEntities\_CreditOrders.cs" />
+    <Compile Include="BaseEntities\_CreditPackages.cs" />
+    <Compile Include="BaseEntities\_CustomProjectAssignedUsers.cs" />
+    <Compile Include="BaseEntities\_CustomProjects.cs" />
+    <Compile Include="BaseEntities\_CustomProjectsPositions.cs" />
+    <Compile Include="BaseEntities\_CustomProjectStates.cs" />
+    <Compile Include="BaseEntities\_CustomProjectStates_ML.cs" />
+    <Compile Include="BaseEntities\_Departments.cs" />
+    <Compile Include="BaseEntities\_Departments_ML.cs" />
+    <Compile Include="BaseEntities\_DisabilityCategories.cs" />
+    <Compile Include="BaseEntities\_DisabilityCategories_ML.cs" />
+    <Compile Include="BaseEntities\_DriverLicenseTypes.cs" />
+    <Compile Include="BaseEntities\_DriverLicenseTypes_ML.cs" />
+    <Compile Include="BaseEntities\_EducationLevels.cs" />
+    <Compile Include="BaseEntities\_EducationLevels_ML.cs" />
+    <Compile Include="BaseEntities\_EducationStates.cs" />
+    <Compile Include="BaseEntities\_EducationStates_ML.cs" />
+    <Compile Include="BaseEntities\_Errors.cs" />
+    <Compile Include="BaseEntities\_Errors_ML.cs" />
+    <Compile Include="BaseEntities\_FilterParameters.cs" />
+    <Compile Include="BaseEntities\_Filters.cs" />
+    <Compile Include="BaseEntities\_FolderContent.cs" />
+    <Compile Include="BaseEntities\_Folders.cs" />
+    <Compile Include="BaseEntities\_FolderTypes.cs" />
+    <Compile Include="BaseEntities\_FolderTypes_ML.cs" />
+    <Compile Include="BaseEntities\_ForeignLanguageExams.cs" />
+    <Compile Include="BaseEntities\_ForeignLanguages.cs" />
+    <Compile Include="BaseEntities\_ForeignLanguages_ML.cs" />
+    <Compile Include="BaseEntities\_HelpContent.cs" />
+    <Compile Include="BaseEntities\_HelpContent_ML.cs" />
+    <Compile Include="BaseEntities\_Hobbies.cs" />
+    <Compile Include="BaseEntities\_Hobbies_ML.cs" />
+    <Compile Include="BaseEntities\_InterviewPikcv.cs" />
+    <Compile Include="BaseEntities\_InterviewPikcvPoints.cs" />
+    <Compile Include="BaseEntities\_InterviewPikcvProperties.cs" />
+    <Compile Include="BaseEntities\_InterviewPikcvProperties_ML.cs" />
+    <Compile Include="BaseEntities\_Interviews.cs" />
+    <Compile Include="BaseEntities\_InterviewStates.cs" />
+    <Compile Include="BaseEntities\_InterviewStates_ML.cs" />
+    <Compile Include="BaseEntities\_InterviewStatusChanges.cs" />
+    <Compile Include="BaseEntities\_InvoiceLineItems.cs" />
+    <Compile Include="BaseEntities\_Invoices.cs" />
+    <Compile Include="BaseEntities\_ItemCredits.cs" />
+    <Compile Include="BaseEntities\_JobApplicants.cs" />
+    <Compile Include="BaseEntities\_JobApplicationStates.cs" />
+    <Compile Include="BaseEntities\_JobApplicationStates_ML.cs" />
+    <Compile Include="BaseEntities\_JobApplicationStatusChanges.cs" />
+    <Compile Include="BaseEntities\_JobChoiceEducations.cs" />
+    <Compile Include="BaseEntities\_JobChoiceEmployment.cs" />
+    <Compile Include="BaseEntities\_JobChoiceForeignLanguage.cs" />
+    <Compile Include="BaseEntities\_JobChoiceSectors.cs" />
+    <Compile Include="BaseEntities\_JobComputerKnowledges.cs" />
+    <Compile Include="BaseEntities\_JobEducationLevels.cs" />
+    <Compile Include="BaseEntities\_JobForeignLanguages.cs" />
+    <Compile Include="BaseEntities\_JobPerfection.cs" />
+    <Compile Include="BaseEntities\_JobPlaces.cs" />
+    <Compile Include="BaseEntities\_JobQualityPositions.cs" />
+    <Compile Include="BaseEntities\_JobQualitySectors.cs" />
+    <Compile Include="BaseEntities\_Jobs.cs" />
+    <Compile Include="BaseEntities\_JobSectors.cs" />
+    <Compile Include="BaseEntities\_LabouringTypes.cs" />
+    <Compile Include="BaseEntities\_LabouringTypes_ML.cs" />
+    <Compile Include="BaseEntities\_Languages.cs" />
+    <Compile Include="BaseEntities\_Levels.cs" />
+    <Compile Include="BaseEntities\_Levels_ML.cs" />
+    <Compile Include="BaseEntities\_MaritalStates.cs" />
+    <Compile Include="BaseEntities\_MaritalStates_ML.cs" />
+    <Compile Include="BaseEntities\_MessageDrafts.cs" />
+    <Compile Include="BaseEntities\_Messages.cs" />
+    <Compile Include="BaseEntities\_MilitaryStates.cs" />
+    <Compile Include="BaseEntities\_MilitaryStates_ML.cs" />
+    <Compile Include="BaseEntities\_OrderLineItems.cs" />
+    <Compile Include="BaseEntities\_Orders.cs" />
+    <Compile Include="BaseEntities\_OrderTypeCodes.cs" />
+    <Compile Include="BaseEntities\_OrderTypeCodes_ML.cs" />
+    <Compile Include="BaseEntities\_OrderTypes.cs" />
+    <Compile Include="BaseEntities\_OrderTypes_ML.cs" />
+    <Compile Include="BaseEntities\_Perfection.cs" />
+    <Compile Include="BaseEntities\_Perfections.cs" />
+    <Compile Include="BaseEntities\_Perfections_ML.cs" />
+    <Compile Include="BaseEntities\_Perfection_ML.cs" />
+    <Compile Include="BaseEntities\_Places.cs" />
+    <Compile Include="BaseEntities\_Places_ML.cs" />
+    <Compile Include="BaseEntities\_Positions.cs" />
+    <Compile Include="BaseEntities\_Positions_ML.cs" />
+    <Compile Include="BaseEntities\_Products.cs" />
+    <Compile Include="BaseEntities\_Representatives.cs" />
+    <Compile Include="BaseEntities\_Schools.cs" />
+    <Compile Include="BaseEntities\_Schools_ML.cs" />
+    <Compile Include="BaseEntities\_Sectors.cs" />
+    <Compile Include="BaseEntities\_Sectors_ML.cs" />
+    <Compile Include="BaseEntities\_Sponsors.cs" />
+    <Compile Include="BaseEntities\_SystemDraftMessages.cs" />
+    <Compile Include="BaseEntities\_SystemRoles.cs" />
+    <Compile Include="BaseEntities\_SystemUserRoles.cs" />
+    <Compile Include="BaseEntities\_SystemUsers.cs" />
+    <Compile Include="BaseEntities\_TemporaryUsers.cs" />
+    <Compile Include="BaseEntities\_TestAnswers.cs" />
+    <Compile Include="BaseEntities\_TestGroupMultipliers.cs" />
+    <Compile Include="BaseEntities\_TestGroups.cs" />
+    <Compile Include="BaseEntities\_TestGroupScale.cs" />
+    <Compile Include="BaseEntities\_TestGroupsLevelDescriptions.cs" />
+    <Compile Include="BaseEntities\_TestGroupsLevelDescriptions_ML.cs" />
+    <Compile Include="BaseEntities\_TestGroups_ML.cs" />
+    <Compile Include="BaseEntities\_TestLevels.cs" />
+    <Compile Include="BaseEntities\_TestPerfection.cs" />
+    <Compile Include="BaseEntities\_TestPerfectionScoreScale.cs" />
+    <Compile Include="BaseEntities\_TestPerfectionScoreScale_ML.cs" />
+    <Compile Include="BaseEntities\_TestQuestions.cs" />
+    <Compile Include="BaseEntities\_TestTotalScoreScale.cs" />
+    <Compile Include="BaseEntities\_TestTotalScoreScale_ML.cs" />
+    <Compile Include="BaseEntities\_User.cs" />
+    <Compile Include="BaseEntities\_UserComputerKnowledge.cs" />
+    <Compile Include="BaseEntities\_UserCVs.cs" />
+    <Compile Include="BaseEntities\_UserDriverLicense.cs" />
+    <Compile Include="BaseEntities\_UserEducation.cs" />
+    <Compile Include="BaseEntities\_UserEmployment.cs" />
+    <Compile Include="BaseEntities\_UserHobbies.cs" />
+    <Compile Include="BaseEntities\_UserLabouringTypes.cs" />
+    <Compile Include="BaseEntities\_UserLanguages.cs" />
+    <Compile Include="BaseEntities\_UserOtherHobbies.cs" />
+    <Compile Include="BaseEntities\_UserPlacementPreferences.cs" />
+    <Compile Include="BaseEntities\_UserPositions.cs" />
+    <Compile Include="BaseEntities\_UserProhibitedCompanies.cs" />
+    <Compile Include="BaseEntities\_UserReferences.cs" />
+    <Compile Include="BaseEntities\_UserSectors.cs" />
+    <Compile Include="BaseEntities\_UserTestPerfectionResults.cs" />
+    <Compile Include="BaseEntities\_UserTestResults.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="Entities\Articles.cs" />
+    <Compile Include="Entities\Banners.cs" />
+    <Compile Include="Entities\Companies.cs" />
+    <Compile Include="Entities\CompanyAdvisor.cs" />
+    <Compile Include="Entities\CompanyOwnedUsers.cs" />
+    <Compile Include="Entities\CompanySectors.cs" />
+    <Compile Include="Entities\ComputerKnowledgeTypes.cs" />
+    <Compile Include="Entities\ComputerKnowledgeTypes_ML.cs" />
+    <Compile Include="Entities\CreditOrderLineItem.cs" />
+    <Compile Include="Entities\CreditOrders.cs" />
+    <Compile Include="Entities\CreditPackages.cs" />
+    <Compile Include="Entities\CustomProjectAssignedUsers.cs" />
+    <Compile Include="Entities\CustomProjects.cs" />
+    <Compile Include="Entities\CustomProjectsPositions.cs" />
+    <Compile Include="Entities\CustomProjectStates.cs" />
+    <Compile Include="Entities\CustomProjectStates_ML.cs" />
+    <Compile Include="Entities\Departments.cs" />
+    <Compile Include="Entities\Departments_ML.cs" />
+    <Compile Include="Entities\DisabilityCategories.cs" />
+    <Compile Include="Entities\DisabilityCategories_ML.cs" />
+    <Compile Include="Entities\DriverLicenseTypes.cs" />
+    <Compile Include="Entities\DriverLicenseTypes_ML.cs" />
+    <Compile Include="Entities\EducationLevels.cs" />
+    <Compile Include="Entities\EducationLevels_ML.cs" />
+    <Compile Include="Entities\EducationStates.cs" />
+    <Compile Include="Entities\EducationStates_ML.cs" />
+    <Compile Include="Entities\Errors.cs" />
+    <Compile Include="Entities\Errors_ML.cs" />
+    <Compile Include="Entities\FilterParameters.cs" />
+    <Compile Include="Entities\Filters.cs" />
+    <Compile Include="Entities\FolderContent.cs" />
+    <Compile Include="Entities\Folders.cs" />
+    <Compile Include="Entities\FolderTypes.cs" />
+    <Compile Include="Entities\FolderTypes_ML.cs" />
+    <Compile Include="Entities\ForeignLanguageExams.cs" />
+    <Compile Include="Entities\ForeignLanguages.cs" />
+    <Compile Include="Entities\ForeignLanguages_ML.cs" />
+    <Compile Include="Entities\HelpContent.cs" />
+    <Compile Include="Entities\HelpContent_ML.cs" />
+    <Compile Include="Entities\Hobbies.cs" />
+    <Compile Include="Entities\Hobbies_ML.cs" />
+    <Compile Include="Entities\InterviewPikcv.cs" />
+    <Compile Include="Entities\InterviewPikcvPoints.cs" />
+    <Compile Include="Entities\InterviewPikcvProperties.cs" />
+    <Compile Include="Entities\InterviewPikcvProperties_ML.cs" />
+    <Compile Include="Entities\Interviews.cs" />
+    <Compile Include="Entities\InterviewStates.cs" />
+    <Compile Include="Entities\InterviewStates_ML.cs" />
+    <Compile Include="Entities\InterviewStatusChanges.cs" />
+    <Compile Include="Entities\InvoiceLineItems.cs" />
+    <Compile Include="Entities\Invoices.cs" />
+    <Compile Include="Entities\ItemCredits.cs" />
+    <Compile Include="Entities\JobApplicants.cs" />
+    <Compile Include="Entities\JobApplicationStates.cs" />
+    <Compile Include="Entities\JobApplicationStates_ML.cs" />
+    <Compile Include="Entities\JobApplicationStatusChanges.cs" />
+    <Compile Include="Entities\JobChoiceEducations.cs" />
+    <Compile Include="Entities\JobChoiceEmployment.cs" />
+    <Compile Include="Entities\JobChoiceForeignLanguage.cs" />
+    <Compile Include="Entities\JobChoiceSectors.cs" />
+    <Compile Include="Entities\JobComputerKnowledges.cs" />
+    <Compile Include="Entities\JobEducationLevels.cs" />
+    <Compile Include="Entities\JobForeignLanguages.cs" />
+    <Compile Include="Entities\JobPerfection.cs" />
+    <Compile Include="Entities\JobPlaces.cs" />
+    <Compile Include="Entities\JobQualityPositions.cs" />
+    <Compile Include="Entities\JobQualitySectors.cs" />
+    <Compile Include="Entities\Jobs.cs" />
+    <Compile Include="Entities\JobSectors.cs" />
+    <Compile Include="Entities\LabouringTypes.cs" />
+    <Compile Include="Entities\LabouringTypes_ML.cs" />
+    <Compile Include="Entities\Languages.cs" />
+    <Compile Include="Entities\Levels.cs" />
+    <Compile Include="Entities\Levels_ML.cs" />
+    <Compile Include="Entities\MaritalStates.cs" />
+    <Compile Include="Entities\MaritalStates_ML.cs" />
+    <Compile Include="Entities\MessageDrafts.cs" />
+    <Compile Include="Entities\Messages.cs" />
+    <Compile Include="Entities\MilitaryStates.cs" />
+    <Compile Include="Entities\MilitaryStates_ML.cs" />
+    <Compile Include="Entities\OrderLineItems.cs" />
+    <Compile Include="Entities\Orders.cs" />
+    <Compile Include="Entities\OrderTypes.cs" />
+    <Compile Include="Entities\OrderTypes_ML.cs" />
+    <Compile Include="Entities\Perfection.cs" />
+    <Compile Include="Entities\Perfection_ML.cs" />
+    <Compile Include="Entities\Places.cs" />
+    <Compile Include="Entities\Places_ML.cs" />
+    <Compile Include="Entities\Positions.cs" />
+    <Compile Include="Entities\Positions_ML.cs" />
+    <Compile Include="Entities\Representatives.cs" />
+    <Compile Include="Entities\Schools.cs" />
+    <Compile Include="Entities\Schools_ML.cs" />
+    <Compile Include="Entities\Sectors.cs" />
+    <Compile Include="Entities\Sectors_ML.cs" />
+    <Compile Include="Entities\Sponsors.cs" />
+    <Compile Include="Entities\SystemDraftMessages.cs" />
+    <Compile Include="Entities\SystemRoles.cs" />
+    <Compile Include="Entities\SystemUserRoles.cs" />
+    <Compile Include="Entities\SystemUsers.cs" />
+    <Compile Include="Entities\TemporaryUsers.cs" />
+    <Compile Include="Entities\TestAnswers.cs" />
+    <Compile Include="Entities\TestGroupMultipliers.cs" />
+    <Compile Include="Entities\TestGroups.cs" />
+    <Compile Include="Entities\TestGroupScale.cs" />
+    <Compile Include="Entities\TestGroupsLevelDescriptions.cs" />
+    <Compile Include="Entities\TestGroupsLevelDescriptions_ML.cs" />
+    <Compile Include="Entities\TestGroups_ML.cs" />
+    <Compile Include="Entities\TestPerfection.cs" />
+    <Compile Include="Entities\TestPerfectionScoreScale.cs" />
+    <Compile Include="Entities\TestPerfectionScoreScale_ML.cs" />
+    <Compile Include="Entities\TestQuestions.cs" />
+    <Compile Include="Entities\TestTotalScoreScale.cs" />
+    <Compile Include="Entities\TestTotalScoreScale_ML.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserComputerKnowledge.cs" />
+    <Compile Include="Entities\UserCVs.cs" />
+    <Compile Include="Entities\UserDriverLicense.cs" />
+    <Compile Include="Entities\UserEducation.cs" />
+    <Compile Include="Entities\UserEmployment.cs" />
+    <Compile Include="Entities\UserHobbies.cs" />
+    <Compile Include="Entities\UserLabouringTypes.cs" />
+    <Compile Include="Entities\UserLanguages.cs" />
+    <Compile Include="Entities\UserOtherHobbies.cs" />
+    <Compile Include="Entities\UserPlacementPreferences.cs" />
+    <Compile Include="Entities\UserPositions.cs" />
+    <Compile Include="Entities\UserProhibitedCompanies.cs" />
+    <Compile Include="Entities\UserReferences.cs" />
+    <Compile Include="Entities\UserSectors.cs" />
+    <Compile Include="Entities\UserTestPerfectionResults.cs" />
+    <Compile Include="Entities\UserTestResults.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PIKCV.DAO\PIKCV.DAO.csproj">
+      <Project>{93E791F1-DD6F-4BAB-A1C8-F3BD24DA0B36}</Project>
+      <Name>PIKCV.DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

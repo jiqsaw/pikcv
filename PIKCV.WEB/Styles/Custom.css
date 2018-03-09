@@ -1,0 +1,17 @@
+﻿.Tahoma { font: normal normal normal 12px/100% Tahoma; }
+.Error { font: normal normal bold 11px/100% Tahoma; }
+.TemplateContent {font-family: Tahoma; font-size: 11px; padding: 8px 8px; }
+
+.dvProcessing {
+    position: absolute;
+    z-index: 5;
+}
+
+.dvProcessing table {
+    width: 205px;
+    height: 56px;
+    border-collapse: collapse;
+    background-color: #f2f1f7;
+    border: 2px solid #bfeaf1;
+    border-spacing: 0px 0px;
+}

@@ -1,0 +1,68 @@
+......................................................................................................................................
+:::  Üniversite ekle pop up ekranýndaki bilgiler saða kaymýþ logo solda olmalý, il bilgisi ilgili kutunun solunda yer almalý kaymýþ
+
+:::  Pop up ekranlarý daha önce konuþtuðumuz gibi sayfanýn uygun bir yerinde ve sayfanýn bir parçasýymýþ gibi çýkacaktý
+
+:::  Referans bilgilerinin altýndaki iþyeri ekle butonunu “referans ekle”ye çevirelim.
+
+:::  Cv doldurma aþamasýnda bilgileriniz kaydedilmiþtir mesajý olarak çýkan Windows Explorer mesajlarý daha farklý ve siteye özel yapmalýýz.
+.......................................................................................................................................
+
+
+---------------------------------------------------------------------------------------------------------------------------
+:::  Siteye 18 yaþýndan küçüklerin üye olmasýný istemiyoruz, bunun için bir kontrol koymalýyýz, doðum yýlýnda bu bilgi ortaya çýkarsa cv doldurmaya devam edememelidir.
+
+:::  Medeni hali combo bilgilerini evli ve bekar yapalým
+
+:::  Bayanlarýn cv güncellemesinde askerlik bilgisi yer almamalý
+
+:::  Bayanlarda CV ön izlemede askerlik bilgisi olmamalý
+
+:::  Yaþadýðýnýz þehirde þeçmeli combo olmalý
+
+:::  Kiþisel bilgilerdeki   “uyruðunuz”, “doðum tarihiniz”,”doðum yeriniz”,”cinsiyetiniz”,”medeni haliniz”,”askerlik durumunuz” ifadeleri mevcut ifadelerin yerine kullanalým
+
+:::  Ýletiþim bilgilerindeki irtibat email bilgisini “irtibat e-posta adresiniz” olarak deðiþtirelim
+
+:::  Eðitim durumu ilk sayfasýnda ekrana gelen “eðitim durumu” yerine “ mezuniyet  durumunuz”  ifadesini kullanalým mezuniyet durumunuzun hemen altýna açýklayýcý bilgi olarak “lütfen son mezun olduðunuz okula göre seçim yapýnýz” yazalým
+
+:::  Eðitim durmunu lise seçince lise giriþ ekraný kiþinin karþýsýna gelmeli ve sol tarafta lise ve ilköðretim yazmalýdýr (þu anda bu þekilde geliyor), lise giriþleri bitince devam tuþu ile ilkoköðretim ekranýna geçilmelidir
+
+:::  Eðitim durumu önlisans, üniversite ve üstü seçimlerde soldaki bilgilerde en son lise yer almalýdýr, önlisans ve üstü eðitim almýþ olanlar ilköðretim bilgilerini girmeyecekler ve lise dahil sol tarafta yer alan tüm bilgileri doldurmadan  eðitim durumu bölümünü tamamlayamayacaklardýr. 
+
+:::  Ülkelerin baþýna Türkiye’yi koyalým kolay ulaþým imkaný için
+
+:::  Üniversite yerine “lisans” bilgisini kullanalým
+
+:::  Yabancý dil’i  “yabancý dil bilgisi” olarak deðiþtirelim
+
+:::  Ýþ tecrübesini “Ýþ Deneyimi” yapalým, (pop up ekraný ve diðer tüm yerlerde) Ýþyeri bilgilerini “iþyeri bilgileriniz” yapalým
+
+:::  Referans durumunun yanýna iki seçim kutusu koyalým; alýnabilir, alýnamaz
+
+:::  “Nitelikler/sosyal hayat” ifadesini “nitelikler / ilgi alanlarý” olarak deðiþtirelim
+
+:::  Seçim yapýlacak alanlar için tüm ekranlarda kiþi ilk giriþte seçim yapmadan önce lütfen seçiniz bilgisi gelmeli, bu ekranlardan bazýlarýnda seçilecek ifadeler yer alýyor
+
+:::  Cv güncelleme butonuna basýnca ayný bölüme yönlendirileceðim, bu bölümde üyelik cv güncelleme ana butonlarýnýn yanýnda cv ön izleme de olmalý bu bölümü eklediðimizi hatýrlýyorum ama yine de belirtmek istedim.
+
+:::  Siteye ilk giriþte kiþisel bilgilerde takýlma oluyor diðer bölümlere bazen geçilemiyor, þu anda takýldým, önceden bilgilerimi girmiþdim, çýktým ve tekrar girip ayný bilgileri görmek istedim ama göremedim. Kiþisel bilgilerden baþka bir alana geçemiyorum.
+
+:::  Ýþyeri bilgilerine giriþte kutunun yanýnda ve bilgi amaçlý altýnda kullanýlan fontlar eðitim durumu ile ayný olsun þu anda 
+
+:::  Tercihlerde yer alan tercih ettiðiniz çalýþma þeklinde birden fazla iþaretleme yapýlabilmeli kutular tam zamanlý, yarý zamanlý, dönemsel/ proje bazlý, vardiyalý
+
+:::  Tercih ettiðiniz çalýþma þeklini bir sonraki bölüm olan çalýþmak istenen yerlerin altýna ekleyelim, 
+“sýk seyahat edermisiniz” yerine “sýk seyahat etmenizde bir engel var mý?” yazalým bu böüme en son “sigara kullanýmý” sorusunu ekleyelim yanýna da evet hayýr boxlarýný
+
+:::  Tercihlerin altýnda yer alan birinci bölümde çalýþmak istediðiniz sektörlerin altýna ambargolu þirketleri ekliyoruz.
+
+:::  Doktora eklemek istendiðinde gelen pop up ekranýnýn üstünde doktora ekle yazmalý üniversite ekle deðil.
+
+::: Validation
+
+::: Tab Pasif - Aktif
+
+:::  Bazý listeden seçilmesi gereken alanlar “lütfen seçiniz” baþlýðý ile gelmiyor, liste içinde geçen bir bilgi ile karþýmýza geliyor
+
+:::  Cv bilgilerini eksik girilmesi durumunda uyarý vermeliyiz, alanlarý doldurmadan geçememeli, þu anda geçebiliyor ve sonunda bilgileriniz kayýt edilmiþtir mesajý çýkýyor bilgi giriþi zorunlu olmayan alanlar : özel durum, kronik rahatsýzlýk, kurs ve sertifikalar, ilgi alanlarý,klüp ve dernekler, toplam iþ deneyiminde “0” bilgisi giriliyorsa bu bölüm tabiî ki geçilebilmeli

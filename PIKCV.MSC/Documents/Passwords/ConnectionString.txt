@@ -1,0 +1,1 @@
+Data Source=CARETTASERVER\SQL2005;Initial Catalog=pikcv;User ID=Pikcv;Password=SqlCrtPikcvbB;

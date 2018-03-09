@@ -1,0 +1,53 @@
+BEKLENEN TASARIMLAR
+----------------------------
+:: STATÝK SAYFALAR ::
+- Giriþ Sayfasý
+- Hakkýmýzda
+- Ýletiþim
+- Hizmetlerimiz
+- Yardým
+- Gizlilik Anlaþmasý
+- Kullaným Þartlarý
+- Site Haritasý
+
+:: ÝÞ ARAYAN ::
+- Ýþ Arýyorum Ana Sayfasý
+- Yeni Üyelik
+  . Üyelik Bilgileri
+  . CV Bilgileri
+  . Resim Ekleme
+  . Test Tanýtým ve Örnekler
+  . Test Sayfalarý
+- Testlerim
+- Þifremi Unuttum
+- Kiþisel Sayfasý (Login olduktan sonraki sayfa)
+- Baþvurularým
+- Mesaj Listesi
+- Yeni Mesaj
+- Mesaj Detayý
+- Ýlan Arama (Hýzlý-Detaylý-Kayýtlý Filtreler ile)
+- Ýlan Arama Sonuçlarý
+- Ýlan Detayý
+- CV Güncelleme
+- Makaleler
+
+:: ÝÞVEREN ::
+- Eleman Arýyorum Ana Sayfasý
+- Yeni Üyelik
+- Þifremi Unuttum 
+- Kurumsal Sayfasý (Login olduktan sonraki sayfa)
+- Ýlanlarým (Arama Paneli ve Listeleme)
+- Baþvurular
+- Mülakatlarým
+- Yeni Ýlan Giriþi
+- Mesajlarým Listesi 
+- Mesaj Detayý
+- Yeni Mesaj
+- Firma Bilgileri (Profil)
+- Kiþi Arama Sayfasý (Yönetici - Eleman)
+- Filtrelerim
+- Arama Sonuçlarý 
+- Mülakata Çaðýrma
+- Ýletiþim Bilgisini Satýn Alma
+- Ödeme Ýþlemleri Listesi
+- Ýþlem Detayý

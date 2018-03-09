@@ -1,0 +1,56 @@
+Aday Yönetimi
+- Eleman Ara
+- Yönetici Ara
+
+Firmalar
+- Firmalar Ara (Onay Bekleyenler - Onaylananlar - Tümü kriterleri de olacak)
+
+Ödeme Ýþlemleri
+- Havale Takibi
+- Fatura Oluþturma
+- Ödeme Listesi
+
+Mesaj Yönetimi
+- Mesajlar
+- Alýcý Gruplarý
+
+Admin Kullanýcý Yönetimi
+- Kullanýcýlar
+- Rol Tanýmlama
+- Müþter Temsilcisi Tanýmlama
+
+Tanýmlamalar
+- ÜLKELER
+- ÞEHÝRLER
+- SEKTÖRLER
+- POZÝSYONLAR
+- EÐÝTÝM DURUMLARI
+- OKULLAR
+- BÝLGSAYAR BÝLGÝ TÝPLERÝ
+- YABANCI DÝLLER
+- YABANCI DÝL SINAVLARI
+
+
+Makale Yönetimi
+- Makaleler
+
+Sponsorlar
+
+Genel yetenek testi 
+- Soru ve cevaplar
+- Boyut Skalasý
+- Aðýrlýklý Puanlar
+
+Yetkinlik Testi
+- Ýfadeler
+- Açýklama giriþi
+
+Pik Kredi Yönetimi
+- Paket Tanýmlama
+- Kredi çarpanlarýný ayarla
+
+Özel Projeler
+- ...
+
+Raporlar
+- ...

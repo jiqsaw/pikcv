@@ -1,0 +1,23 @@
+/* PIKcv.com CSS Document */
+/* Ver.1.0 */
+
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, #Content, hr {margin:0; padding:0; border:0;float:none;}
+body {font-size:12pt; font-family:"Times New Roman", Times, serif; color:#000;}
+a:link, a:visited {color:#003366; font-weight:bold; text-decoration: underline;}
+#wrapper {margin:0; padding:0; width:auto;}
+#sponsors, ul#topnav, ul#topnavCorp, #LeftNav, #Tab, #footer, .FamLinks {display:none;}
+#logoPikcv {font-size:18pt; font-family:"Times New Roman", Times, serif; color:#000;margin:0 0 20px 0;}
+.ArticleItem {overflow:visible;}
+#content h1 {font-size:18pt;margin:10px 0;}
+#content h2 {font-size:16pt;margin:10px 0;}
+#content h3 {font-size:14pt;margin:10px 0;}
+#content h4 {font-size:12pt;margin:10px 0;}
+#content h5 {font-size:11pt;margin:10px 0;}
+#content p {margin:5px 0; font-size:11pt; line-height:16pt; font-family:"Times New Roman", Times, serif;}
+#content td {font-size:11pt; line-height:16pt; font-family:"Times New Roman", Times, serif;padding:3px;vertical-align:top;border:1px solid #666;border-collapse:collapse;}
+#content th {font-size:11pt; line-height:16pt; font-family:"Times New Roman", Times, serif;padding:3px;vertical-align:top;border:1px solid #666;border-collapse:collapse;font-weight:bold;}
+#content table {border:1px solid #666;border-collapse:collapse;}
+#content ul {font-size: 11pt;line-height:16pt;font-family:"Times New Roman", Times, serif;}
+#content li {margin:10px 20px;list-style:circle;font-family:"Times New Roman", Times, serif;}
+#content strong {font-weight:bold;}
+#content img {margin:15px}

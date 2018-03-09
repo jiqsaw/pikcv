@@ -1,0 +1,13 @@
+bin\Debug\PIKCV.BUS.dll
+bin\Debug\PIKCV.BUS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PIKCV.BUS.dll
+obj\Debug\PIKCV.BUS.pdb
+bin\Debug\CARETTA.COM.dll
+bin\Debug\PIKCV.COM.dll
+bin\Debug\PIKCV.DAL.dll
+bin\Debug\PIKCV.DAO.dll
+bin\Debug\CARETTA.COM.pdb
+bin\Debug\PIKCV.COM.pdb
+bin\Debug\PIKCV.DAO.pdb
+bin\Debug\PIKCV.DAL.pdb

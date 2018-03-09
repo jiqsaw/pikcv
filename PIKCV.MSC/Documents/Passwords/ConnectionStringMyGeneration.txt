@@ -1,0 +1,5 @@
+[CARETTASERVER]
+Provider=SQLOLEDB.1;Password=SqlCrtPikcvbB;Persist Security Info=True;User ID=Pikcv;Initial Catalog=pikcv;Data Source=CARETTASERVER\SQL2005
+
+[LOCAL]
+Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Pikcv;Data Source=BUC\SQLEXPRESS

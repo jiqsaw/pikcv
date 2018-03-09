@@ -1,0 +1,7 @@
+bin\Debug\PIKCV.COM.dll
+bin\Debug\PIKCV.COM.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PIKCV.COM.dll
+obj\Debug\PIKCV.COM.pdb
+bin\Debug\CARETTA.COM.dll
+bin\Debug\CARETTA.COM.pdb

@@ -1,0 +1,7 @@
+bin\Debug\PIKCV.DAL.dll
+bin\Debug\PIKCV.DAL.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PIKCV.DAL.dll
+obj\Debug\PIKCV.DAL.pdb
+bin\Debug\PIKCV.DAO.dll
+bin\Debug\PIKCV.DAO.pdb

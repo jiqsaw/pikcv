@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{324C2E7B-73C1-4D06-9E82-BB084D0FA017}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIKCV.MSC</RootNamespace>
+    <AssemblyName>PIKCV.MSC</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Content Include="Backup\Code\Search\uDetailSearch.ascx" />
+    <Content Include="Backup\Code\Search\uEasySearch.ascx" />
+    <Content Include="Backup\Code\YeniKayit.txt" />
+    <Content Include="Backup\Sql\başvurumesajsayisi.txt" />
+    <Content Include="Backup\Sql\pik_searchquery.sql" />
+    <Content Include="CodeGenerate\Software\mygeneration_13beta9.exe" />
+    <Content Include="CodeGenerate\Templates\Microsoft_SQL_Server\sql_library.js" />
+    <Content Include="Design\DesignPreviewSite.txt" />
+    <Content Include="Design\HTML\2_1_1_2_sifremi_unuttum.htm" />
+    <Content Include="Design\HTML\2_1_is_arayan_anasayfa.htm" />
+    <Content Include="Design\HTML\2_2_1_uyelik_bilgileri.htm" />
+    <Content Include="Design\HTML\2_2_2_1_cv_iletisim.htm" />
+    <Content Include="Design\HTML\2_2_2_1_cv_kisisel.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_lise_1.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_lise_2.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_lise_popup.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_ortaokul_1.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_universite_1.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_universite_2.htm" />
+    <Content Include="Design\HTML\2_2_2_2_cv_ogrenim_universite_popup.htm" />
+    <Content Include="Design\HTML\2_2_2_3_cv_isyeri_1.htm" />
+    <Content Include="Design\HTML\2_2_2_3_cv_isyeri_2.htm" />
+    <Content Include="Design\HTML\2_2_2_3_isyeri_popup.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_bilgisayar.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_kurs_ve_sertifikalar.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_surucu_belgesi.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_yabanci_dil_1.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_yabanci_dil_2.htm" />
+    <Content Include="Design\HTML\2_2_2_4_cv_nitelikler_yabanci_dil_popup.htm" />
+    <Content Include="Design\HTML\2_2_2_5_cv_diger_1.htm" />
+    <Content Include="Design\HTML\2_2_2_5_cv_diger_2.htm" />
+    <Content Include="Design\HTML\2_2_2_5_cv_diger_3.htm" />
+    <Content Include="Design\HTML\2_2_2_6_cv_bilgileri.htm" />
+    <Content Include="Design\HTML\2_2_2_cv_guncelleme.htm" />
+    <Content Include="Design\HTML\2_2_3_foto_ekleme.htm" />
+    <Content Include="Design\HTML\2_2_4_1_testler.htm" />
+    <Content Include="Design\HTML\2_2_4_2_testler.htm" />
+    <Content Include="Design\HTML\2_2_4_3_testler.htm" />
+    <Content Include="Design\HTML\2_2_4_4_test_popup.htm" />
+    <Content Include="Design\HTML\2_3_3_makaleler.htm" />
+    <Content Include="Design\HTML\2_3_3_makaleler_detay.htm" />
+    <Content Include="Design\HTML\2_3_5_kisi_karti_1.htm" />
+    <Content Include="Design\HTML\2_3_5_kisi_karti_3.htm" />
+    <Content Include="Design\HTML\2_3_6_basvurularim.htm" />
+    <Content Include="Design\HTML\2_3_7_1_mesaj_listesi.htm" />
+    <Content Include="Design\HTML\2_3_7_2_mesaj_detay.htm" />
+    <Content Include="Design\HTML\2_3_7_2_mesaj_yaz.htm" />
+    <Content Include="Design\HTML\2_3_8_2_ilan_arama_sonucu.htm" />
+    <Content Include="Design\HTML\2_3_8_3_ilan_detay.htm" />
+    <Content Include="Design\HTML\2_3_8_ilan_detayli_arama.htm" />
+    <Content Include="Design\HTML\2_3_8_ilan_kolay_arama.htm" />
+    <Content Include="Design\HTML\2_3_kisisel_sayfa.htm" />
+    <Content Include="Design\HTML\3_1_isveren_anasayfa.htm" />
+    <Content Include="Design\HTML\3_1_yeni_uyelik.htm" />
+    <Content Include="Design\HTML\3_1_yeni_uyelik_onay.htm" />
+    <Content Include="Design\HTML\3_3_1_firma_anasayfa.htm" />
+    <Content Include="Design\HTML\3_3_2_1_arama_filtreler.htm" />
+    <Content Include="Design\HTML\3_3_2_2_arama_yonetici.htm" />
+    <Content Include="Design\HTML\3_3_2_3_arama_eleman.htm" />
+    <Content Include="Design\HTML\3_3_2_4_arama_basvuru.htm" />
+    <Content Include="Design\HTML\3_3_3_ilan_listesi.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_1.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_2.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_3.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_4.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_5.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_6.htm" />
+    <Content Include="Design\HTML\3_3_3_yeni_ilan_girisi_6_onizleme.htm" />
+    <Content Include="Design\HTML\css\fonts.css" />
+    <Content Include="Design\HTML\css\pikcv_screen.css" />
+    <Content Include="Design\HTML\css\pikcv_screen_ie6.css" />
+    <Content Include="Design\HTML\css\pikcv_screen_ie7.css" />
+    <Content Include="Design\HTML\css\reset.css" />
+    <Content Include="Design\HTML\images\bg\accmenu_off.png" />
+    <Content Include="Design\HTML\images\bg\accmenu_on.png" />
+    <Content Include="Design\HTML\images\bg\alert.jpg" />
+    <Content Include="Design\HTML\images\bg\alert.png" />
+    <Content Include="Design\HTML\images\bg\arrow_blue.png" />
+    <Content Include="Design\HTML\images\bg\arrow_grey.png" />
+    <Content Include="Design\HTML\images\bg\blank.gif" />
+    <Content Include="Design\HTML\images\bg\box1.png" />
+    <Content Include="Design\HTML\images\bg\box2.png" />
+    <Content Include="Design\HTML\images\bg\box_alert.png" />
+    <Content Include="Design\HTML\images\bg\box_blue_gradient_bg.jpg" />
+    <Content Include="Design\HTML\images\bg\box_content.png" />
+    <Content Include="Design\HTML\images\bg\box_content_shadow.png" />
+    <Content Include="Design\HTML\images\bg\box_gradient_shadow.png" />
+    <Content Include="Design\HTML\images\bg\bullet_grey.png" />
+    <Content Include="Design\HTML\images\bg\clock.png" />
+    <Content Include="Design\HTML\images\bg\cv_aktif.png" />
+    <Content Include="Design\HTML\images\bg\dotver.png" />
+    <Content Include="Design\HTML\images\bg\dot_hor.gif" />
+    <Content Include="Design\HTML\images\bg\form_bt_bg.gif" />
+    <Content Include="Design\HTML\images\bg\form_bt_bg_hover.gif" />
+    <Content Include="Design\HTML\images\bg\grid_1px_333.gif" />
+    <Content Include="Design\HTML\images\bg\grid_1px_666.gif" />
+    <Content Include="Design\HTML\images\bg\grid_1px_999.gif" />
+    <Content Include="Design\HTML\images\bg\grid_1px_ccc.gif" />
+    <Content Include="Design\HTML\images\bg\grid_1px_fff.gif" />
+    <Content Include="Design\HTML\images\bg\grid_4px_horizontal_999.gif" />
+    <Content Include="Design\HTML\images\bg\grid_4px_horizontal_fff.gif" />
+    <Content Include="Design\HTML\images\bg\grid_4px_vertical_999.gif" />
+    <Content Include="Design\HTML\images\bg\grid_vertical_ccc.gif" />
+    <Content Include="Design\HTML\images\bg\header_bg.jpg" />
+    <Content Include="Design\HTML\images\bg\info.png" />
+    <Content Include="Design\HTML\images\bg\leftnav_bg_shadow.png" />
+    <Content Include="Design\HTML\images\bg\logout_bullet.png" />
+    <Content Include="Design\HTML\images\bg\page_bg.jpg" />
+    <Content Include="Design\HTML\images\bg\pikcv_logo.png" />
+    <Content Include="Design\HTML\images\bg\puzzle_blue.png" />
+    <Content Include="Design\HTML\images\bg\puzzle_green.png" />
+    <Content Include="Design\HTML\images\bg\puzzle_red.png" />
+    <Content Include="Design\HTML\images\bg\subtab_bg.jpg" />
+    <Content Include="Design\HTML\images\bg\subtab_bg.png" />
+    <Content Include="Design\HTML\images\bg\tab.png" />
+    <Content Include="Design\HTML\images\bg\tab_active.png" />
+    <Content Include="Design\HTML\images\bg\tab_left.png" />
+    <Content Include="Design\HTML\images\bg\tab_left_active.png" />
+    <Content Include="Design\HTML\images\bg\tab_right.png" />
+    <Content Include="Design\HTML\images\bg\tab_right_active.png" />
+    <Content Include="Design\HTML\images\buttons\add_employer.png" />
+    <Content Include="Design\HTML\images\buttons\add_filter.png" />
+    <Content Include="Design\HTML\images\buttons\add_highschool.png" />
+    <Content Include="Design\HTML\images\buttons\add_language.png" />
+    <Content Include="Design\HTML\images\buttons\add_middleschool.png" />
+    <Content Include="Design\HTML\images\buttons\add_school.jpg" />
+    <Content Include="Design\HTML\images\buttons\add_school.png" />
+    <Content Include="Design\HTML\images\buttons\add_to_list.png" />
+    <Content Include="Design\HTML\images\buttons\add_university.png" />
+    <Content Include="Design\HTML\images\buttons\answer.png" />
+    <Content Include="Design\HTML\images\buttons\ara.png" />
+    <Content Include="Design\HTML\images\buttons\basvur.png" />
+    <Content Include="Design\HTML\images\buttons\begin_test.jpg" />
+    <Content Include="Design\HTML\images\buttons\begin_test.png" />
+    <Content Include="Design\HTML\images\buttons\continue.png" />
+    <Content Include="Design\HTML\images\buttons\corp_become_member.png" />
+    <Content Include="Design\HTML\images\buttons\corp_buy.png" />
+    <Content Include="Design\HTML\images\buttons\corp_continue.png" />
+    <Content Include="Design\HTML\images\buttons\corp_enter.png" />
+    <Content Include="Design\HTML\images\buttons\corp_pending_cv.png" />
+    <Content Include="Design\HTML\images\buttons\corp_purhased_cv.png" />
+    <Content Include="Design\HTML\images\buttons\corp_save.png" />
+    <Content Include="Design\HTML\images\buttons\corp_search.png" />
+    <Content Include="Design\HTML\images\buttons\corp_send.png" />
+    <Content Include="Design\HTML\images\buttons\cv_guncel.png" />
+    <Content Include="Design\HTML\images\buttons\devam_et.png" />
+    <Content Include="Design\HTML\images\buttons\evet.png" />
+    <Content Include="Design\HTML\images\buttons\filter_asc.gif" />
+    <Content Include="Design\HTML\images\buttons\filter_desc.gif" />
+    <Content Include="Design\HTML\images\buttons\giris.png" />
+    <Content Include="Design\HTML\images\buttons\goback.png" />
+    <Content Include="Design\HTML\images\buttons\gonder.png" />
+    <Content Include="Design\HTML\images\buttons\Login.png" />
+    <Content Include="Design\HTML\images\buttons\next_page.gif" />
+    <Content Include="Design\HTML\images\buttons\preview_ad.png" />
+    <Content Include="Design\HTML\images\buttons\preview_cv.png" />
+    <Content Include="Design\HTML\images\buttons\prev_page.gif" />
+    <Content Include="Design\HTML\images\buttons\print.png" />
+    <Content Include="Design\HTML\images\buttons\remove_from_list.png" />
+    <Content Include="Design\HTML\images\buttons\save.png" />
+    <Content Include="Design\HTML\images\buttons\saved_filters.png" />
+    <Content Include="Design\HTML\images\buttons\search_criteria.png" />
+    <Content Include="Design\HTML\images\buttons\send_message.png" />
+    <Content Include="Design\HTML\images\buttons\send_to_friend.png" />
+    <Content Include="Design\HTML\images\buttons\SignUp.png" />
+    <Content Include="Design\HTML\images\buttons\swap_active.png" />
+    <Content Include="Design\HTML\images\buttons\swap_passive.png" />
+    <Content Include="Design\HTML\images\buttons\update.png" />
+    <Content Include="Design\HTML\images\buttons\upload.png" />
+    <Content Include="Design\HTML\images\buttons\uye_olmak_istiyorum.png" />
+    <Content Include="Design\HTML\images\logos\vakko.gif" />
+    <Content Include="Design\HTML\images\misc\ArticleImage.jpg" />
+    <Content Include="Design\HTML\images\misc\cv_photo.jpg" />
+    <Content Include="Design\HTML\images\misc\cv_photo_small.png" />
+    <Content Include="Design\HTML\images\misc\lock.png" />
+    <Content Include="Design\HTML\images\misc\photo_placeholder.png" />
+    <Content Include="Design\HTML\images\misc\photo_placeholder_big.png" />
+    <Content Include="Design\HTML\images\misc\pikcv_popup_logo.png" />
+    <Content Include="Design\HTML\images\misc\statistic.png" />
+    <Content Include="Design\HTML\images\misc\test_example.png" />
+    <Content Include="Design\HTML\images\misc\test_legend.png" />
+    <Content Include="Design\HTML\images\nav\topnav1.png" />
+    <Content Include="Design\HTML\images\nav\topnav1_on.png" />
+    <Content Include="Design\HTML\images\nav\topnav2.png" />
+    <Content Include="Design\HTML\images\nav\topnav2_on.png" />
+    <Content Include="Design\HTML\images\nav\topnav3.png" />
+    <Content Include="Design\HTML\images\nav\topnav3_on.png" />
+    <Content Include="Design\HTML\images\nav\topnav4.png" />
+    <Content Include="Design\HTML\images\nav\topnav5.png" />
+    <Content Include="Design\HTML\images\sponsors\carrefour.png" />
+    <Content Include="Design\HTML\images\teaser\corp_placeholder.png" />
+    <Content Include="Design\HTML\images\teaser\corp_placeholder2.png" />
+    <Content Include="Design\HTML\images\teaser\temp_placeholder.png" />
+    <Content Include="Design\HTML\images\teaser\temp_placeholder2.png" />
+    <Content Include="Design\HTML\index.htm" />
+    <Content Include="Design\HTML\js\p7APscripts.js" />
+    <Content Include="Design\HTML\js\scripts.js" />
+    <Content Include="Design\HTML\js\swfobject.js" />
+    <Content Include="Design\HTML\satin_alma.htm" />
+    <Content Include="Dll\AjaxControlToolkit.dll" />
+    <Content Include="Dll\WebChart.dll" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\exe\ResxTranslator.exe" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\exe\ResxTranslator.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\exe\WebWagon.dll" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\exe\WebWagon.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\GoogleTranslationDemo.sln" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\App.ico" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\bin\Debug\ResxTranslator.exe" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\bin\Debug\ResxTranslator.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\bin\Debug\WebWagon.dll" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\bin\Debug\WebWagon.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\ResxTranslator.exe" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\ResxTranslator.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\ResxTranslator.csproj" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\ResxTranslator.csproj.user" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\bin\Debug\WebWagon.dll" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\bin\Debug\WebWagon.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\WebWagon.dll" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\WebWagon.pdb" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\WebWagon.csproj" />
+    <Content Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\WebWagon.csproj.user" />
+    <Content Include="Documents\Notes\AdminEkranlar.txt" />
+    <Content Include="Documents\Notes\pikcvosnistek.txt" />
+    <Content Include="Documents\Notes\userids.txt" />
+    <Content Include="Documents\Passwords\ConnectionString.txt" />
+    <Content Include="Documents\Passwords\ConnectionStringMyGeneration.txt" />
+    <Content Include="Documents\Text\DB BackupRestore ChangUserLogin .txt" />
+    <Content Include="Documents\Text\dOODadsOrnekler.txt" />
+    <Content Include="Documents\Text\PikCvSayfalar.txt" />
+    <Content Include="Documents\Text\SqlLogin.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ajax\ASPAJAXExtSetup.msi" />
+    <None Include="Backup\Code\Web.config" />
+    <None Include="Backup\DB\pikcv.bak" />
+    <None Include="Backup\Sql\GenelYetenekBoyutSkala.sql" />
+    <None Include="Backup\Sql\GetRandomTest.sql" />
+    <None Include="Backup\Sql\IslemRaporu.sql" />
+    <None Include="Backup\Sql\statistik.sql" />
+    <None Include="Backup\Sql\Test Yeni Sistem.sql" />
+    <None Include="Backup\Sql\yetkinliksonuclar.sql" />
+    <None Include="Backup\Sql\İlanAramaSonucu_New.sql" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_Access_BusinessObject.vbgen" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_dOOdads_StoredProc.vbgen" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_SQL_BusinessObject.vbgen" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_SQL_dOOdads_BusinessEntity.vbgen" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_SQL_dOOdads_ConcreteClass.vbgen" />
+    <None Include="CodeGenerate\Templates\C#\CSharp_SQL_dOOdads_View.vbgen" />
+    <None Include="CodeGenerate\Templates\Microsoft_SQL_Server\SQL_DataInserts.jgen" />
+    <None Include="CodeGenerate\Templates\Microsoft_SQL_Server\SQL_DataReplication.jgen" />
+    <None Include="CodeGenerate\Templates\Microsoft_SQL_Server\SQL_DeleteAllData.jgen" />
+    <None Include="CodeGenerate\Templates\Microsoft_SQL_Server\SQL_StoredProcs.jgen" />
+    <None Include="CodeGenerate\Templates\Microsoft_SQL_Server\SQL_StoredProcs.vbgen" />
+    <None Include="Design\HTML\images\bg\Thumbs.db" />
+    <None Include="Design\HTML\images\buttons\Thumbs.db" />
+    <None Include="Design\HTML\images\logos\Thumbs.db" />
+    <None Include="Design\HTML\images\misc\Thumbs.db" />
+    <None Include="Design\HTML\images\nav\Thumbs.db" />
+    <None Include="Design\HTML\images\sponsors\Thumbs.db" />
+    <None Include="Design\HTML\images\teaser\Thumbs.db" />
+    <None Include="Documents\Analysis\Analiz_BaranBey.doc" />
+    <None Include="Documents\Analysis\Analiz_Serkan.docx" />
+    <None Include="Documents\Analysis\Pikcv Analizı.doc" />
+    <None Include="Documents\Analysis\Proje Plani 2007_29_11 %282003%29 V2.mpp" />
+    <None Include="Documents\Analysis\Proje Plani.mpp" />
+    <None Include="Documents\Data\iLANLAR.docx" />
+    <None Include="Documents\Data\sektör-pozisyon-ilan.xlsx" />
+    <None Include="Documents\Data\Test\pikAmatformA3.doc" />
+    <None Include="Documents\Data\Test\PIKAMAT_Makro_.rar" />
+    <None Include="Documents\Data\Test\PIKAMAT_Makro_.xls" />
+    <None Include="Documents\Data\Test\pikBmatformB.doc" />
+    <None Include="Documents\Data\Uzman-eleman.xls.xls" />
+    <None Include="Documents\Data\Yöneticiler.xls.xls" />
+    <None Include="Documents\MultiLanguage\GenerateResources\source\translate\GoogleTranslationDemo.suo" />
+    <None Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\ResxTranslator.projdata" />
+    <None Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\WebWagon.dll.incr" />
+    <None Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\WebWagon.projdata" />
+    <None Include="Documents\Notes\Diğer.docx" />
+    <None Include="Documents\Notes\Summary.docx" />
+    <None Include="Documents\Notes\YAPILANLAR.docx" />
+    <None Include="Documents\Notes\İş arayan test sonuçları yapılmayanlarCRT.docx" />
+    <None Include="Documents\Notes\İşe Alım Programı içinde Yer Alacak Mesaj ve Bilgi Yazıları.docx" />
+    <None Include="Documents\Text\CV Data şablonu.xlsx" />
+    <None Include="Documents\Text\güncel sektör bilgileri.xlsx" />
+    <None Include="Documents\Text\PİKcv cv bilgileri.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backup\Code\Search\uDetailSearch.ascx.cs" />
+    <Compile Include="Backup\Code\Search\uEasySearch.ascx.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\AssemblyInfo.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\Form1.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\AssemblyInfo.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\HTMLPage.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\TranslateUtil.cs" />
+    <Compile Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\WebWagon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\ResxTranslator.Form1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backup\Html\" />
+    <Folder Include="Design\FLA\" />
+    <Folder Include="Design\JPG\" />
+    <Folder Include="Design\PSD\" />
+    <Folder Include="Design\SWF\" />
+    <Folder Include="Documents\Images\" />
+    <Folder Include="Documents\Logo\" />
+    <Folder Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\TempPE\" />
+    <Folder Include="Documents\MultiLanguage\GenerateResources\source\translate\ResxTranslator\obj\Debug\temp\" />
+    <Folder Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\TempPE\" />
+    <Folder Include="Documents\MultiLanguage\GenerateResources\source\translate\WebWagon\obj\Debug\temp\" />
+  </ItemGroup>
+</Project>
